@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+body {
+  margin: 0px;
+  line-height: 1.4;
+}
+
+#header {
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+}
+
+#logo {
+  height: 40px;
+  width: auto;
+}
+
+#burger {
+  background: #fff;
+  border: 0;
+}
+
+#navigation a{
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#navigation ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    }
+
+@media (min-width: 960px) {
+  #burger {
+    display: none;
+    }
+  #navigation {
+    display: block;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+        }
+  #liste {
+    display: flex;
+      }
+  #navigation li{
+    margin-left: 1rem;
+  }
+}
+/* @media: Grund für Veränderung, hier: roter Hintergrund bei mehr als 960px*/
+/* display: none --> Ausblendung*/
+/* a: Ansprechen aller "a's" (html code) die in der ID Nagivation hängt */
