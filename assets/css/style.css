@@ -58,21 +58,23 @@ body {
   padding-right: 1rem;
 }
 
+h2 {
+  text-align: center;
+}
 
 #hero {
-  align-items: center;
   background-image: url(../img/flaschen.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
-  color: #fff;
+  color: #fffdd6;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
 
-.button{
+.button {
   color: #374a67;
   text-decoration: none;
   background: white;
@@ -85,12 +87,48 @@ body {
   margin: 1rem;
 }
 
+.card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.ueberschrift a {
+  color: #374a67;
+  font-weight: bold;
+}
+
+#linktext {
+  text-decoration: none;
+  color: #828282;
+  text-shadow: 1px 1px;
+}
+
+#rezepte {
+  color: #333;
+}
+
+
+.card img {
+  width: 100%;
+  }
+
+.card .button-blue {
+  color: #fff;
+  background: #374a67;
+  box-shadow: 0px 4px 6px 0px rgba(55,74,103,1);
+}
+
+.card {
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
 
 /*margin drückt Element weg von anderen; Link ist kein Blockelement und akzeptiert daher kein Margin*/
 /*padding verbreitert Element */
-
 /*100vh = viewport height -> höhe des viewports, angepasst an bildschirmgröße */
-
 @media (min-width: 960px) {
   #burger {
     display: none;
@@ -112,6 +150,12 @@ body {
 
   #navigation li {
     margin-left: 1rem;
+  }
+
+  .posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
