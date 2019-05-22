@@ -58,6 +58,39 @@ body {
   padding-right: 1rem;
 }
 
+
+#hero {
+  align-items: center;
+  background-image: url(../img/flaschen.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.button{
+  color: #374a67;
+  text-decoration: none;
+  background: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #374a67;
+  padding: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 1rem;
+}
+
+
+/*margin drückt Element weg von anderen; Link ist kein Blockelement und akzeptiert daher kein Margin*/
+/*padding verbreitert Element */
+
+/*100vh = viewport height -> höhe des viewports, angepasst an bildschirmgröße */
+
 @media (min-width: 960px) {
   #burger {
     display: none;
