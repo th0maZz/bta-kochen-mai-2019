@@ -85,6 +85,7 @@ h2 {
   border-radius: 5px;
   display: inline-block;
   margin: 1rem;
+  transition: 1s all ease;
 }
 
 .card a {
@@ -116,6 +117,7 @@ h2 {
   color: #fff;
   background: #374a67;
   box-shadow: 0px 4px 6px 0px rgba(55,74,103,1);
+  transition: 0.5s
 }
 
 .card {
@@ -126,8 +128,17 @@ h2 {
   margin: 1rem;
 }
 
-#reste {
-  width: 100%;
+.card .button-blue:hover {
+  background: #fff;
+  color:  #374a67;
+  border: 1px solid #374a67;
+  transform: scale(5);
+}
+
+.button:hover {
+  color: #fff;
+  background: #374a67;
+  transform: rotateZ(360deg);
 }
 
 /*margin drückt Element weg von anderen; Link ist kein Blockelement und akzeptiert daher kein Margin*/
