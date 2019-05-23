@@ -135,6 +135,7 @@ text-align: center;
   border-radius: 5px;
   overflow: hidden;
   margin-top: 1rem;
+  margin-bottom: 1rem;
  }
 /*overflow: hidden "schneidet" überflüssiges in Bildern ab */
 
@@ -150,6 +151,19 @@ text-align: center;
   color: #fff;
   background: #374a67;
   transform: rotateZ(360deg);
+}
+
+.newsletter {
+  height: 150px;
+  width: 100%;
+  background-color: #04122B;
+  text-align: center;
+}
+
+.newsletter p{
+  color: white;
+  space: 5px;
+  padding: 10px;
 }
 
 /*margin drückt Element weg von anderen; Link ist kein Blockelement und akzeptiert daher kein Margin*/
