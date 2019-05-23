@@ -58,8 +58,9 @@ body {
   padding-right: 1rem;
 }
 
-#rezepte h2 {
+#klassiker {
   text-align: center;
+  color: #374a67;
 }
 
 #hero {
@@ -94,10 +95,11 @@ body {
   color: #333;
 }
 
-.ueberschrift a {
+ h2 {
   color: #374a67;
   font-weight: bold;
-}
+  text-decoration: none;
+  }
 
 #linktext {
   text-decoration: none;
@@ -116,6 +118,7 @@ text-align: center;
 
 .card img {
   width: 100%;
+  height: 70%;
     }
 
 .card .button-blue {
@@ -131,6 +134,7 @@ text-align: center;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   overflow: hidden;
+  margin-top: 1rem;
  }
 /*overflow: hidden "schneidet" überflüssiges in Bildern ab */
 
@@ -140,7 +144,7 @@ text-align: center;
   border: 1px solid #374a67;
   transform: scale(5);
   opacity: 0.5;
-  }
+    }
 
 .button:hover {
   color: #fff;
@@ -176,11 +180,11 @@ text-align: center;
 
   .posts {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+
   }
   .card {
-    padding: 1rem;
+    width: calc(50% - 2rem);
     margin: 1rem;
   }
 }
