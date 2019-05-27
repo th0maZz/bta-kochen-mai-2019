@@ -88,28 +88,28 @@ body {
   margin: 1rem;
   transition: 1s all ease;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
-  }
+}
 
 .card a {
   text-decoration: none;
   color: #333;
 }
 
- h2 {
+h2 {
   color: #374a67;
   font-weight: bold;
   text-decoration: none;
-  }
+}
 
 #linktext {
   text-decoration: none;
   color: #828282;
   text-shadow: 1px 1px;
-    }
+}
 
-#linktext p{
-padding: 0 2rem;
-text-align: center;
+#linktext p {
+  padding: 0 2rem;
+  text-align: center;
 }
 
 #rezepte {
@@ -119,12 +119,12 @@ text-align: center;
 .card img {
   width: 100%;
   height: 70%;
-    }
+}
 
 .card .button-blue {
   color: #fff;
   background: #374a67;
-  box-shadow: 0px 4px 6px 0px rgba(55,74,103,1);
+  box-shadow: 0px 4px 6px 0px rgba(55, 74, 103, 1);
   transition: 0.5s;
 }
 
@@ -136,16 +136,16 @@ text-align: center;
   overflow: hidden;
   margin-top: 1rem;
   margin-bottom: 1rem;
- }
-/*overflow: hidden "schneidet" überflüssiges in Bildern ab */
+}
 
+/*overflow: hidden "schneidet" überflüssiges in Bildern ab */
 .card .button-blue:hover {
   background: #fff;
-  color:  #374a67;
+  color: #374a67;
   border: 1px solid #374a67;
   transform: scale(3);
   opacity: 0.5;
-    }
+}
 
 .button:hover {
   color: #fff;
@@ -154,17 +154,71 @@ text-align: center;
 }
 
 .newsletter {
-  height: 150px;
-  width: 100%;
+  /* height: 150px;
+  width: 100%; */
   background-color: #04122B;
   text-align: center;
+  padding: 3rem 1rem;
 }
 
-.newsletter p{
+.newsletter p {
   color: white;
-  space: 5px;
-  padding: 10px;
 }
+
+.newsletter input {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1rem;
+  border: none;
+}
+
+.newsletter button {
+  margin: -4px;
+  border-left: 0;
+}
+
+#navfoot  {
+  text-align: center;
+  font-size: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+#navfoot li {
+  padding: 8px;
+}
+
+#navfoot a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#social  {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  }
+
+#social ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#social li {
+  padding: 8px;
+}
+
+#social a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 
 /*margin drückt Element weg von anderen; Link ist kein Blockelement und akzeptiert daher kein Margin*/
 /*padding verbreitert Element */
@@ -188,15 +242,36 @@ text-align: center;
     display: flex;
   }
 
-  #navigation li {
-    margin-left: 1rem;
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
   }
+
+  #navigation li {
+    /* margin-left: 1rem; */
+  }
+
+#navfoot {
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+#social {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
 
   .posts {
     display: flex;
     flex-wrap: wrap;
-
   }
+
   .card {
     width: calc(50% - 2rem);
     margin: 1rem;
