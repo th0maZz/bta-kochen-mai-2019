@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=NTR|Nunito:400,700&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 html {
   width: 100%;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'nunito sans', Helvetica, Arial, sans-serif;
   color: #333333;
 }
 
@@ -17,7 +19,7 @@ body {
   height: 60px;
   width: 100%;
   background-color: #fff;
-}
+  }
 
 #logo {
   height: 40px;
@@ -46,6 +48,10 @@ body {
   display: none;
 }
 
+#navigation.show {
+  display: block;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -61,6 +67,7 @@ body {
 #klassiker {
   text-align: center;
   color: #374a67;
+font-family: 'Nunito', sans-serif;
 }
 
 #hero {
@@ -73,6 +80,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'NTR', sans-serif;
 }
 
 .button {
@@ -136,6 +144,8 @@ h2 {
   overflow: hidden;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-family: 'Nunito', sans-serif;
+
 }
 
 /*overflow: hidden "schneidet" überflüssiges in Bildern ab */
@@ -159,6 +169,7 @@ h2 {
   background-color: #04122B;
   text-align: center;
   padding: 3rem 1rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 .newsletter p {
@@ -174,8 +185,12 @@ h2 {
 }
 
 .newsletter button {
-  margin: -4px;
+  margin: -3px;
   border-left: 0;
+  }
+
+footer {
+  font-family: 'Nunito', sans-serif;
 }
 
 #navfoot  {
@@ -199,8 +214,7 @@ footer ul {
 
 #social  {
   text-align: center;
-  font-size: 3rem;
-  padding-bottom: 2rem;
+  font-size: 2rem;
   }
 
 #social ul {
@@ -230,6 +244,11 @@ footer ul {
 
   #navigation {
     display: block;
+
+  }
+
+  #navigation li{
+    padding: 1rem;
   }
 
   .wrapper {
@@ -245,7 +264,8 @@ footer ul {
 footer .wrapper {
   display: flex;
   justify-content: space-between;
-}
+  padding: 1rem;
+  }
 
 footer ul {
   display: flex;
@@ -253,18 +273,13 @@ footer ul {
   padding: 0;
   }
 
-  #navigation li {
-    /* margin-left: 1rem; */
-  }
 
 #navfoot {
-    padding-top: 1rem;
-    font-size: 20px;
+      font-size: 20px;
 }
 
 #social {
   font-size: 2rem;
-  padding-top: 1rem;
 }
 
   .posts {
