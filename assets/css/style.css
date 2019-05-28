@@ -19,6 +19,7 @@ body {
   height: 60px;
   width: 100%;
   background-color: #fff;
+  position: fixed;
   }
 
 #logo {
@@ -48,9 +49,29 @@ body {
   display: none;
 }
 
-#navigation.show {
-  display: block;
-}
+ #navigation.show {
+  position: fixed;
+  background-color: #fff;
+  text-align: center;
+  top: 60px;
+  width: 100%;
+  /* margin-left: -1rem; */
+  left: 0;
+  height: calc(100% - 60px);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+#navigation.show li {
+  justify-content: center;
+  font-size: 2rem;
+  padding: 1rem;
+  }
+
+/*Leerzeichen heißt IN etwas, aber ohne heißt, es klebt an der Klasse dran. Beides gemeinsam; Kombination von etwas! navigation UND show! */
+
 
 .flex {
   display: flex;
@@ -193,6 +214,7 @@ footer {
   font-family: 'Nunito', sans-serif;
 }
 
+
 #navfoot  {
   text-align: center;
   font-size: 20px;
@@ -244,8 +266,12 @@ footer ul {
 
   #navigation {
     display: block;
-
   }
+
+
+#header {
+  /* position: relative; */
+}
 
   #navigation li{
     padding: 1rem;
